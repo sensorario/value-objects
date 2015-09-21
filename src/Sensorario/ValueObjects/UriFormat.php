@@ -25,6 +25,14 @@ final class UriFormat extends ValueObject
 
     public function value()
     {
+        if ($this->properyExists('fragment')) {
+            return $this->scheme() . '://'
+                . $this->authority()
+                . $this->path()
+                . '#' . $this->fragment()
+            ;
+        }
+
         if ($this->properyExists('query')) {
             return $this->scheme() . '://'
                 . $this->authority()
