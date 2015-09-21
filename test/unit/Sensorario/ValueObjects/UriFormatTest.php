@@ -49,4 +49,20 @@ final class UriFormatTest extends PHPUnit_Framework_TestCase
             $uri->value()
         );
     }
+
+    public function testUriWithQueryAndFragment()
+    {
+        $uri = UriFormat::create([
+            'scheme'    => 'http',
+            'authority' => 'www.example.com',
+            'path'      => '/path/to/resource',
+            'query'     => 'foo=bar&hello=world',
+            'fragment'  => 'fragment',
+        ]);
+
+        $this->assertEquals(
+            'http://www.example.com/path/to/resource?foo=bar&hello=world#fragment',
+            $uri->value()
+        );
+    }
 }
