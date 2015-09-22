@@ -1,6 +1,6 @@
 {
     "php": "5.4",
-    "version": "1.0.0",
+    "version": "0.1.4",
     "authors": [
         {
             "name": "Simone Gentili",
@@ -10,7 +10,7 @@
         }
     ],
     "name": "sensorario/starter",
-    "description": "PHP TDD/BDD starter project",
+    "description": "A collection of Value Objects",
     "license": "MIT",
     "autoload": {
         "psr-0": {
