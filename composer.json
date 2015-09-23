@@ -1,6 +1,6 @@
 {
     "php": "5.4",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Simone Gentili",
@@ -9,7 +9,7 @@
             "role": "Developer"
         }
     ],
-    "name": "sensorario/starter",
+    "name": "sensorario/value-objects",
     "description": "A collection of Value Objects",
     "license": "MIT",
     "autoload": {
