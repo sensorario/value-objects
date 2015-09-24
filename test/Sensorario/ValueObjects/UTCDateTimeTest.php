@@ -52,4 +52,14 @@ final class UTCDateTimeTest extends PHPUnit_Framework_TestCase
             $this->utcDateTime->timezone()
         );
     }
+
+    public function testDefaultsTimeZone()
+    {
+        $this->utcDateTime = UTCDateTime::box();
+
+        $this->assertEquals(
+            'Europe/Rome',
+            $this->utcDateTime->timezone()
+        );
+    }
 }

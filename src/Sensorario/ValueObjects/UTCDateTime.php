@@ -2,6 +2,7 @@
 
 namespace Sensorario\ValueObjects;
 
+use DateTime;
 use DateTimeZone;
 use Sensorario\ValueObject\ValueObject;
 
@@ -12,6 +13,14 @@ final class UTCDateTime extends ValueObject
         return [
             'datetime',
             'timezone',
+        ];
+    }
+
+    public static function defaults()
+    {
+        return [
+            'timezone' => 'Europe/Rome',
+            'datetime' => (new DateTime())->format("Y-m-d H:i:s"),
         ];
     }
 
