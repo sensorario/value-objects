@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "141a94ee5f782f908c5f6218f028b348",
-    "content-hash": "0430bf8de1d55e0b06ab54f3eb329a34",
+    "hash": "cf99942c20e6384fc25d4d1f41e9301e",
+    "content-hash": "bef11ff776ce5966ffe1603451ca47b0",
     "packages": [
         {
             "name": "sensorario/value-object",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensorario/value-object.git",
-                "reference": "63bb3720f5862d1c24624c3100318ee9e2b10666"
+                "reference": "9ec966704e52daaeaed6ab12d7f37458f1be9741"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensorario/value-object/zipball/63bb3720f5862d1c24624c3100318ee9e2b10666",
-                "reference": "63bb3720f5862d1c24624c3100318ee9e2b10666",
+                "url": "https://api.github.com/repos/sensorario/value-object/zipball/9ec966704e52daaeaed6ab12d7f37458f1be9741",
+                "reference": "9ec966704e52daaeaed6ab12d7f37458f1be9741",
                 "shasum": ""
             },
             "require-dev": {
@@ -42,7 +42,7 @@
                 }
             ],
             "description": "A Value Object Implementation in PHP",
-            "time": "2015-09-22 06:04:55"
+            "time": "2015-09-24 21:54:28"
         }
     ],
     "packages-dev": [

@@ -8,7 +8,7 @@ final class UriFormatTest extends PHPUnit_Framework_TestCase
 {
     public function testGenericURISyntax()
     {
-        $uri = UriFormat::create([
+        $uri = UriFormat::box([
             'scheme'    => 'http',
             'authority' => 'www.example.com',
             'path'      => '/path/to/resource',
@@ -22,7 +22,7 @@ final class UriFormatTest extends PHPUnit_Framework_TestCase
 
     public function testUriWithQuery()
     {
-        $uri = UriFormat::create([
+        $uri = UriFormat::box([
             'scheme'    => 'http',
             'authority' => 'www.example.com',
             'path'      => '/path/to/resource',
@@ -37,7 +37,7 @@ final class UriFormatTest extends PHPUnit_Framework_TestCase
 
     public function testUriWithFragment()
     {
-        $uri = UriFormat::create([
+        $uri = UriFormat::box([
             'scheme'    => 'http',
             'authority' => 'www.example.com',
             'path'      => '/path/to/resource',
@@ -52,7 +52,7 @@ final class UriFormatTest extends PHPUnit_Framework_TestCase
 
     public function testUriWithQueryAndFragment()
     {
-        $uri = UriFormat::create([
+        $uri = UriFormat::box([
             'scheme'    => 'http',
             'authority' => 'www.example.com',
             'path'      => '/path/to/resource',
