@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "sensorario/value-object",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensorario/value-object.git",
-                "reference": "9ec966704e52daaeaed6ab12d7f37458f1be9741"
+                "reference": "29c6d98117e72cd3c7c4a31e153099f4464d20e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensorario/value-object/zipball/9ec966704e52daaeaed6ab12d7f37458f1be9741",
-                "reference": "9ec966704e52daaeaed6ab12d7f37458f1be9741",
+                "url": "https://api.github.com/repos/sensorario/value-object/zipball/29c6d98117e72cd3c7c4a31e153099f4464d20e5",
+                "reference": "29c6d98117e72cd3c7c4a31e153099f4464d20e5",
                 "shasum": ""
             },
             "require-dev": {
@@ -42,7 +42,7 @@
                 }
             ],
             "description": "A Value Object Implementation in PHP",
-            "time": "2015-09-24 21:54:28"
+            "time": "2015-09-25 04:52:22"
         }
     ],
     "packages-dev": [
