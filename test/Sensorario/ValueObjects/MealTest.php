@@ -10,10 +10,10 @@ final class MealTest extends PHPUnit_Framework_TestCase
     {
         $expectedValues = [
             'kind' => [
-                'colazione',
-                'merenda',
-                'pranzo',
-                'cena',
+                'breakfast',
+                'snack',
+                'lunch',
+                'dinner',
             ],
         ];
 

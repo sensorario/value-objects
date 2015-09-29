@@ -17,10 +17,10 @@ final class Meal extends ValueObject
     {
         return [
             'kind' => [
-                'colazione',  
-                'merenda',  
-                'pranzo',  
-                'cena',  
+                'breakfast',
+                'snack',
+                'lunch',
+                'dinner',
             ],
         ];
     }
