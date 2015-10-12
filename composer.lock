@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cf99942c20e6384fc25d4d1f41e9301e",
-    "content-hash": "bef11ff776ce5966ffe1603451ca47b0",
+    "hash": "e5fcb81ba8a443192959f134ff55fa78",
+    "content-hash": "9aca70958da65211a994ae838ff02501",
     "packages": [
         {
             "name": "sensorario/value-object",
-            "version": "0.1.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensorario/value-object.git",
-                "reference": "29c6d98117e72cd3c7c4a31e153099f4464d20e5"
+                "reference": "ef712f719167729cbf0ffece6930db4deb381547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensorario/value-object/zipball/29c6d98117e72cd3c7c4a31e153099f4464d20e5",
-                "reference": "29c6d98117e72cd3c7c4a31e153099f4464d20e5",
+                "url": "https://api.github.com/repos/sensorario/value-object/zipball/ef712f719167729cbf0ffece6930db4deb381547",
+                "reference": "ef712f719167729cbf0ffece6930db4deb381547",
                 "shasum": ""
             },
             "require-dev": {
-                "phpdocumentor/phpdocumentor": "@dev",
                 "phpunit/phpunit": "@dev"
             },
             "type": "library",
@@ -41,8 +40,8 @@
                     "email": "sensorario@gmail.com"
                 }
             ],
-            "description": "A Value Object Implementation in PHP",
-            "time": "2015-09-25 04:52:22"
+            "description": "A Value Object Implementation in PHP?",
+            "time": "2015-10-12 03:59:12"
         }
     ],
     "packages-dev": [
@@ -1000,7 +999,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sensorario/value-object": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

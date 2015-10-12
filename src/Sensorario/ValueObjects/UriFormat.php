@@ -30,11 +30,11 @@ final class UriFormat extends ValueObject
             . $this->path()
         ;
 
-        if ($this->propertyExists('query')) {
+        if ($this->hasProperty('query')) {
             $return .= '?' . $this->query();
         }
 
-        if ($this->propertyExists('fragment')) {
+        if ($this->hasProperty('fragment')) {
             $return .= '#' . $this->fragment();
         }
 

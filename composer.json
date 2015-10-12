@@ -21,6 +21,6 @@
         "phpunit/phpunit": "^4.8"
     },
     "require": {
-        "sensorario/value-object": "^0.1"
+        "sensorario/value-object": "@dev"
     }
 }
