@@ -47,4 +47,13 @@ final class UTCDateTime extends ValueObject
         return $this->get('datetime')
             ->format("Y-m-d H:i:s");
     }
+
+    public static function rules()
+    {
+        return [
+            'datetime' => [
+                'object' => 'DateTime',
+            ],
+        ];
+    }
 }

@@ -4,27 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "498c50b9b364c70720cd7e23dd03ab07",
-    "content-hash": "1c67895ec17e009bba822a41c0c6b37b",
+    "hash": "e5fcb81ba8a443192959f134ff55fa78",
+    "content-hash": "9aca70958da65211a994ae838ff02501",
     "packages": [
         {
             "name": "sensorario/value-object",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensorario/value-object.git",
-                "reference": "08240c0b5c7a46ae1f46e1535dc46d09e5d73a37"
+                "reference": "e5450ab95523a05c7548344607ea358941024639"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensorario/value-object/zipball/08240c0b5c7a46ae1f46e1535dc46d09e5d73a37",
-                "reference": "08240c0b5c7a46ae1f46e1535dc46d09e5d73a37",
+                "url": "https://api.github.com/repos/sensorario/value-object/zipball/e5450ab95523a05c7548344607ea358941024639",
+                "reference": "e5450ab95523a05c7548344607ea358941024639",
                 "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "@dev"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -37,11 +42,13 @@
             "authors": [
                 {
                     "name": "Simone Gentili",
-                    "email": "sensorario@gmail.com"
+                    "email": "sensorario@gmail.com",
+                    "homepage": "http://sensorario.github.io",
+                    "role": "Developer"
                 }
             ],
             "description": "A Value Object Implementation in PHP?",
-            "time": "2015-10-12 22:28:07"
+            "time": "2016-01-28 23:13:26"
         }
     ],
     "packages-dev": [
@@ -999,7 +1006,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sensorario/value-object": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
