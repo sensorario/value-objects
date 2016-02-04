@@ -1,7 +1,3 @@
-# Release 0.1.1
+# Release 1.0
 
-* Semantic Versioning adoption
-
-# Release 0.1.0
-
-* first release
+ - Added all metadata necessary to this version
